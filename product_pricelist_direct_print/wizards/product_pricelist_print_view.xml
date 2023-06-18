@@ -55,16 +55,18 @@
                         <field
                             name="product_tmpl_ids"
                             nolabel="1"
-                            attrs="{'invisible':[('show_variants','=',True)]}"
+                            
                         >
+                        <!--attrs="{'invisible':[('show_variants','=',True)]}"-->
                             <tree>
                                 <field name="name" />
                             </tree>
                         </field>
                         <field
                             name="product_ids"
-                            attrs="{'invisible':[('show_variants','=',False)]}"
+                            
                         >
+                        <!--attrs="{'invisible':[('show_variants','=',False)]}"-->
                             <tree>
                                 <field name="name" />
                             </tree>
